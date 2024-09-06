@@ -1,4 +1,3 @@
-yagmail
 st_pages
 Streamlit==1.37.1
 langchain
