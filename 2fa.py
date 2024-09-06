@@ -61,6 +61,6 @@ if st.session_state['otp_sent'] and not st.session_state['authenticated']:
 
 # Step 3: Display content for authenticated users
 if st.session_state['authenticated']:
-    st.switch_page("Entreprise_Chatbot/blob/pages/travel_guru.py")
+    st.switch_page("travel_guru.py")
     st.header("Welcome to the Secure Section")
     st.write("You have successfully logged in with 2FA.")
